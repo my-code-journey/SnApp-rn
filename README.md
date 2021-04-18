@@ -1,7 +1,7 @@
  <div align="center">
-<img src="assets/buildericon.png" style="border-radius:50%;border:1px solid black;" alt="SocialApp-rn" width="70">
+<img src="assets/buildericon.png" style="border-radius:50%;border:1px solid black;" alt="SnApp-rn" width="70">
 
-# SocialApp-React-Native
+# SnApp-React-Native
 
 [![](https://img.shields.io/badge/Made_with-ReactNative-blue?style=for-the-badge&logo=react)](https://reactnative.dev/docs/getting-started)
 [![](https://img.shields.io/badge/Database-MongoDB-red?style=for-the-badge&logo=mongodb)](mongodb.com "MongoDB")
@@ -9,11 +9,10 @@
 
 </div>
 Social Networking mobile app similar to Instagram in React Native.
-<br/>Native mobile application for my <a href='http://sociallappp.herokuapp.com/'>SocialApp-MERN</a> (web) project.
-<br/>Find its Github repo  <a href='https://github.com/shahshubh/socialApp-MERN'>here</a>
+<br/>Native mobile application for my <a href='https://github.com/S-codes14/SnApp'>SnApp-MERN</a> (web) project.
+<br/>Find its api   <a href='https://github.com/S-codes14/SnApp-api'>here</a>
 
 
-## Download Apk File from <a href='https://socialapp-serverr.herokuapp.com/static/socialapp-rn-2.apk'>here</a>
 
 
 ## Features
@@ -58,15 +57,15 @@ Social Networking mobile app similar to Instagram in React Native.
 
 ## Run project locally
 
-* clone this Repository by `git clone https://github.com/shahshubh/SocialApp-React-Native.git`.
+* clone this Repository by `git clone https://github.com/S-codes14/SnApp-rn.git`.
 * Change directory `cd SocialApp-React-Native`
 * Make sure you have expo-cli installed. If not run `npm install -g expo-cli`
 * Install the dependencies using `npm install`
 * create new file env.js in root directory and add
     ```javascript
     const vars = {
-        apiUrl: "https://socialapp-serverr.herokuapp.com",
-        defaultImageUri: "https://socialapp-serverr.herokuapp.com/static/images/defaultprofile.jpg"
+        apiUrl: "http://localhost:8080",
+        defaultImageUri: "./avatar.jpg"
     };
 
     export default vars;

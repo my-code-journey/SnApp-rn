@@ -232,7 +232,7 @@ const AuthScreen = (props) => {
             <View style={styles.container}>
                 <Image style={styles.bgImage} source={require('../../assets/bg-auth.png')} />
                 <View style={styles.titleContainer} >
-                    <Text style={styles.title}>SocialApp</Text>
+                    <Text style={styles.title}>SnApp</Text>
                 </View>
 
                 {/* { error !== null && (

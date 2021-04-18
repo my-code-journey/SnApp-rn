@@ -1,5 +1,5 @@
 import React from 'react';
-import { BottomNavigator, AuthNavigator } from './SocialAppNavigator';
+import { BottomNavigator, AuthNavigator } from './SnAppNavigator';
 import { useSelector } from 'react-redux';
 import { NavigationContainer } from '@react-navigation/native';
 

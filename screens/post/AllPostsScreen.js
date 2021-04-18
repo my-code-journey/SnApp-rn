@@ -141,7 +141,7 @@ const AllPostsScreen = (props) => {
 
 export const screenOptions = (navData) => {
     return{
-        headerTitle: 'SocialApp',
+        headerTitle: 'SnApp',
         headerRight: () => (
             <Ionicons
                 name={Platform.OS === 'android' ? 'md-chatboxes' : 'ios-chatboxes'}

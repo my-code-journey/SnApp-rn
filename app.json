@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "socialapp-rn",
-    "slug": "socialapp-rn",
+    "name": "snapp-rn",
+    "slug": "snapp-rn",
     "platforms": [
       "ios",
       "android"
@@ -10,7 +10,7 @@
     "orientation": "portrait",
     "icon": "./assets/buildericon.png",
     "splash": {
-      "image": "./assets/splash3.png",
+      "image": "./assets/bg-auth.png",
       "resizeMode": "cover",
       "backgroundColor": "#fff"
     },
@@ -20,13 +20,7 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "bundleIdentifier": "io.github.shahshubh.socialapp-rn",
-      "buildNumber": "1.0.0",
-      "supportsTablet": true
-    },
     "android": {
-      "package": "io.github.shahshubh.socialapp_rn",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/buildericon.png",
